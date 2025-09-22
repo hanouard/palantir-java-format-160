@@ -39,7 +39,7 @@ gradlePlugin {
         palantirJavaFormat {
             id = 'com.palantir.java-format'
             implementationClass = 'com.palantir.javaformat.gradle.PalantirJavaFormatPlugin'
-            description = 'A modern, lambda-friendly, 120 character Java formatter. Applies all other palantir-java-format plugins.'
+            description = 'A modern, lambda-friendly, 160 character Java formatter. Applies all other palantir-java-format plugins.'
             displayName = 'Palantir Java Format'
             tags.set(['java', 'style'])
         }
