@@ -8,7 +8,7 @@
 
 # Palantir Java Format
 
-_A modern, lambda-friendly, 120 character Java formatter._
+_A modern, lambda-friendly, 160 character Java formatter._
 
 - [Eclipse plugin](https://github.com/palantir/palantir-java-format/tree/develop/eclipse_plugin)
 - [IntelliJ plugin](https://plugins.jetbrains.com/plugin/13180-palantir-java-format)
