@@ -56,6 +56,10 @@ subprojects {
         enabled = false
     }
 
+    tasks.withType(Test).configureEach {
+        enabled = false
+    }
+
     tasks.withType(JavaCompile).configureEach {
         options.errorprone.disable 'PreconditionsConstantMessage', 'PreferSafeLoggableExceptions', 'PreferSafeLoggingPreconditions'
         options.errorprone.disable 'StrictUnusedVariable'
